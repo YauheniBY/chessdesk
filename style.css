@@ -1,0 +1,47 @@
+body {
+ padding: 0px 0 0 0;
+ text-align: center;
+ background-color: blueviolet;
+ color: white;
+ background: url('./img/chess.jpg');
+ background-size: cover;
+ font-family: 'Quicksand', 'Times New Roman', Times, serif;
+
+}
+.chessdesk {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    background-color: rgb(87, 58, 19);
+    color: rgb(76, 74, 74);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px grey;
+    line-height: 1.8;
+    font-size: 25px;
+}
+
+.black-item {
+    background-color: rgb(97, 97, 97);    
+}
+
+.white-item {
+    background-color: rgb(243, 203, 139);
+}
+
+.letters-item {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+.white-figure {
+    color: rgb(255, 255, 255);
+}
+
+.black-figure {
+    color: black;
+}
+
+.img-figure {
+    width: 100%;
+}
